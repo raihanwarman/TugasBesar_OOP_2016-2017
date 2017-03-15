@@ -1,0 +1,15 @@
+g++ -std=c++11 TestReadFile.cpp  Zoo.cpp Visitor.cpp Point.cpp 
+Animal/Aves/Aves.cpp Animal/Aves/Cockatoo.cpp Animal/Aves/Eagle.cpp Animal/Aves/Flamingo.cpp Animal/Aves/Owl.cpp Animal/Aves/Peacock.cpp Animal/Aves/Turkey.cpp
+Animal/Mammal/Bat.cpp Animal/Mammal/Chimpanzees.cpp Animal/Mammal/Elephant.cpp Animal/Mammal/Lion.cpp Animal/Mammal/Mammal.cpp Animal/Mammal/Moose.cpp Animal/Mammal/Rhinoceros.cpp Animal/Mammal/Seal.cpp Animal/Mammal/Tiger.cpp
+Animal/Reptile/Chameleon.cpp Animal/Reptile/Crocodile.cpp Animal/Reptile/Iguana.cpp Animal/Reptile/Komodo.cpp Animal/Reptile/Reptile.cpp Animal/Reptile/Snake.cpp Animal/Reptile/Tortoise.cpp
+Animal/Animal.cpp 
+ -o tes
+
+
+g++ -std=c++11 TestReadFile.cpp  Zoo.cpp Visitor.cpp Point.cpp  /Animal/Aves/Aves.cpp /Animal/Aves/Cockatoo.cpp /Animal/Aves/Eagle.cpp /Animal/Aves/Flamingo.cpp /Animal/Aves/Owl.cpp /Animal/Aves/Peacock.cpp /Animal/Aves/Turkey.cpp /Animal/Mammal/Bat.cpp /Animal/Mammal/Chimpanzees.cpp /Animal/Mammal/Elephant.cpp /Animal/Mammal/Lion.cpp /Animal/Mammal/Mammal.cpp /Animal/Mammal/Moose.cpp /Animal/Mammal/Rhinoceros.cpp /Animal/Mammal/Seal.cpp /Animal/Mammal/Tiger.cpp /Animal/Reptile/Chameleon.cpp /Animal/Reptile/Crocodile.cpp /Animal/Reptile/Iguana.cpp /Animal/Reptile/Komodo.cpp /Animal/Reptile/Reptile.cpp /Animal/Reptile/Snake.cpp /Animal/Reptile/Tortoise.cpp /Animal/Animal.cpp  -o tes
+
+
+g++  -std=c++11 TestReadFile.cpp  Zoo.cpp Visitor.cpp Point.cpp -o tes 
+
+
+g++ -std=c++11 TestReadFile.cpp  Zoo.cpp Visitor.cpp Point.cpp Animal/Aves/Aves.cpp Animal/Aves/Cockatoo.cpp Animal/Aves/Eagle.cpp Animal/Aves/Flamingo.cpp Animal/Aves/Owl.cpp Animal/Aves/Peacock.cpp Animal/Aves/Turkey.cpp Animal/Mammal/Bat.cpp Animal/Mammal/Chimpanzees.cpp Animal/Mammal/Elephant.cpp Animal/Mammal/Lion.cpp Animal/Mammal/Mammal.cpp Animal/Mammal/Moose.cpp Animal/Mammal/Rhinoceros.cpp Animal/Mammal/Seal.cpp Animal/Mammal/Tiger.cpp Animal/Reptile/Chamaleon.cpp Animal/Reptile/Crocodile.cpp Animal/Reptile/Iguana.cpp Animal/Reptile/Komodo.cpp Animal/Reptile/Reptile.cpp Animal/Reptile/Snake.cpp Animal/Reptile/Tortoise.cpp Animal/Animal.cpp  -o tes

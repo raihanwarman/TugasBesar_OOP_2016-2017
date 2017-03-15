@@ -1,0 +1,46 @@
+void Zoo::Group() {
+	int id = 0;
+	groups.resize(height * width);
+	vector<Cell *> roadtemp;
+	for(int j = 0; j < height; j++){
+		for (int i = 0; i < width; ++i) {
+			Point p(i,j);
+			Cell * a = GetCellAtPoint(p);
+			// if(a->GetString() == "+"){
+			// 	Group(a, id);
+			// 	id++;
+			// }
+			// else
+			Group(a, id);
+
+			if ( groups[id].size() > 0)
+			{
+				cout <<"Center : (" << i << "," << j << ") part of  Cage/Group # " << id << "(size : "<< groups[id].size() << "), with member(s) Cell : ";
+				for(std::vector<Cell*>::iterator it = groups[id].begin(); it != groups[id].end(); ++it) {
+						((*it)->GetLocation()).Print();
+				}
+				cout << endl;
+				if ((a->GetString() == "a" || a->GetString() == "w" || a->GetString() == "l") and  groups[id].size() >= 3)
+				{
+					Cage* c = new Cage(a->GetString());
+					c->habitats = groups[id];
+					for (int i = 0;  i < c->habitats.size(); i++)  // for all elements "e" in vector v1
+     				{
+     					//c->habitats[i] = toupper(c->habitats[i]->GetString());
+						string b = c->habitats[i]->GetString();
+						std::transform(b.begin(), b.end(),b.begin(), ::toupper);
+						c->habitats[i]->SetString(b);
+					}
+					cages.push_back(c);
+				}
+				if (a->GetString() == "+")
+				{
+					Route* r = new Route();
+					r->roads = groups[id];
+					routes.push_back(r);
+				}
+				id = id + 1;
+			}
+		}
+	}
+}

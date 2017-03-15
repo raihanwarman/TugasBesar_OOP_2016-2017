@@ -1,0 +1,5 @@
+Lion 1 1 0
+Lion 0 5 2
+Lion 0 5 3
+Peacock 0 2 2
+Bat 0 2 5

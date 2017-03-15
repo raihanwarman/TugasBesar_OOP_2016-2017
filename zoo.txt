@@ -1,0 +1,16 @@
+# + a a w w
+w + a l l w
+w + a l l w
+w + l l w w
+l + a l w w
+P + a a a w
+a + a a a w
+a + P P P P
+a + w l l l
+w + w w w w
+w + a w w w
+l + l l w l
+P + R a l l
+a + w a a l
+a + + P R P
+a w * l l w

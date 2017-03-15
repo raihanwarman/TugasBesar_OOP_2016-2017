@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Zoo" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Zoo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Zoo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="AirHabitat.h" />
+		<Unit filename="Animal/Animal.cpp" />
+		<Unit filename="Animal/Animal.h" />
+		<Unit filename="Animal/Mammal/Bat.cpp" />
+		<Unit filename="Animal/Mammal/Bat.h" />
+		<Unit filename="Animal/Mammal/Chimpanzees.cpp" />
+		<Unit filename="Animal/Mammal/Chimpanzees.h" />
+		<Unit filename="Animal/Mammal/Elephant.cpp" />
+		<Unit filename="Animal/Mammal/Elephant.h" />
+		<Unit filename="Animal/Mammal/Lion.cpp" />
+		<Unit filename="Animal/Mammal/Lion.h" />
+		<Unit filename="Animal/Mammal/Mammal.cpp" />
+		<Unit filename="Animal/Mammal/Mammal.h" />
+		<Unit filename="Animal/Mammal/Seal.cpp" />
+		<Unit filename="Animal/Mammal/Seal.h" />
+		<Unit filename="Animal/Mammal/Tiger.cpp" />
+		<Unit filename="Animal/Mammal/Tiger.h" />
+		<Unit filename="Cage.h" />
+		<Unit filename="Cell.h" />
+		<Unit filename="Entrance.h" />
+		<Unit filename="Exit.h" />
+		<Unit filename="Facility.h" />
+		<Unit filename="Habitat.h" />
+		<Unit filename="LandHabitat.h" />
+		<Unit filename="Makefile" />
+		<Unit filename="Park.h" />
+		<Unit filename="Point.cpp" />
+		<Unit filename="Point.h" />
+		<Unit filename="Renderable.h" />
+		<Unit filename="Restaurant.h" />
+		<Unit filename="Road.h" />
+		<Unit filename="Route.h" />
+		<Unit filename="TestReadFile.cpp" />
+		<Unit filename="Visitor.cpp" />
+		<Unit filename="Visitor.h" />
+		<Unit filename="WaterHabitat.h" />
+		<Unit filename="Zoo.cpp" />
+		<Unit filename="Zoo.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
